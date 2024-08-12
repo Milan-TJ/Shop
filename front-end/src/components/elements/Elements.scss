@@ -1,0 +1,134 @@
+@import '../theme/Theme.scss';
+
+.textfield-container {
+  display: flex;
+  align-items: center;
+
+  .prefix-icon {
+    color: $placeholderColor;
+  }
+
+  .postfix-icon {
+    color: $placeholderColor;
+
+    :hover {
+      color: $fontSecondary;
+    }
+  }
+
+  .options {
+    color: $fontSecondary;
+  }
+
+  .active {
+    color: $activeColor!important;
+  }
+
+  input {
+    ::placeholder {
+      color: $placeholderColor;
+    }
+
+    ::-ms-input-placeholder {
+      color: $placeholderColor;
+    }
+  }
+
+  legend {
+    color: $color2;
+    font-size: 0.8em;
+    padding-inline: 1em;
+  }
+}
+
+.Btn1 {
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  background-color: $color1;
+  border: 1px solid $color2;
+}
+
+.card {
+  z-index: 2;
+  padding: 1rem;
+
+}
+
+.cards {
+  width: 18rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: .8rem;
+  background-color: white;
+}
+
+.card__skeleton {
+  background-image: linear-gradient(90deg,
+      #ccc 0px,
+      rgb(229 229 229 / 90%) 40px,
+      #ccc 80px);
+  background-size: 300%;
+  background-position: 100% 0;
+  border-radius: inherit;
+  animation: shimmer 1.5s infinite;
+}
+
+.card__title {
+  height: 15px;
+  margin-bottom: 15px;
+}
+
+.card__description {
+  height: 100px;
+}
+
+@keyframes shimmer {
+  to {
+    background-position: -100% 0;
+  }
+}
+
+.load{
+  position: fixed;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.784);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#spinner{
+  height: 50px;
+  width: 50px;
+  border:10px solid;
+  border-radius: 50% ;
+  border-color: #7282fe black black black;
+  animation: rotate 1.5s linear infinite;
+
+}
+@keyframes rotate {
+  to{transform: rotate(365deg);}
+}
+.legend2 {
+  // color: black;
+
+  legend {
+    color: black !important;
+    font-weight: 600;
+  }
+
+  placeholder {
+    color: black;
+  }
+}
+
+ul li {
+  list-style: none;
+  padding-top: 1em;
+}
+

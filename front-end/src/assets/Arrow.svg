@@ -1,0 +1,15 @@
+<svg
+                role="presentation"
+                focusable="false"
+                width="20"
+                height="10"
+                class="icon icon-chevron-bottom"
+                viewBox="0 0 10 7"
+              >
+                <path
+                  d="m1 1 4 4 4-4"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                ></path>
+              </svg>

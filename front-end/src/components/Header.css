@@ -1,0 +1,65 @@
+.headermain{
+    width: 100%;
+    height: 5rem;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7282fe;
+}
+.header-brand .list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-brand .list-item img{
+    width: 4rem;
+    height: 4rem;
+    margin-left: 1.5rem;
+}
+.hname{
+    margin-left: .4rem;
+    padding-bottom: .3rem;
+    font-size: 1.5rem;
+}
+.header-navigate,.header-user{
+    height: 100%;
+}
+.header-navigate{
+    width: 40rem;
+}
+.header-user{
+    width: 13rem;
+}
+.nav-items{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    margin: 0%;
+    padding: 0%;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none outside none;
+}
+.nav-items li button:hover{
+    color: #6b6b6b ;
+}
+.list-item{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #27187e ;
+    background-color: transparent;
+    border: none;
+}
+.user-btn{
+    width: 3rem;
+    height: 3rem;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

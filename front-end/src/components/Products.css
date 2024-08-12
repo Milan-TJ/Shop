@@ -1,0 +1,57 @@
+.ProductsItemContainer {
+    width: 93%;
+    height: auto;
+    margin: 1rem auto;
+    display: flex;
+    gap: 2rem 2rem;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+
+.Item {
+    height: auto;
+    width: 13rem;
+    color: #fff;
+    background-color: #a6b2fc;
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.Item:hover {
+    background-color: #7285fe;
+}
+
+.Item img {
+    height: 12rem;
+    width: 12rem;
+    margin: 0 23px;
+    border-radius: 10px;
+}
+
+.Btnlist {
+    width: 90%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.itembtn {
+    width: 5rem;
+    height: 2.5rem;
+    background-color: #fff;
+    border: 2px solid #7285fe;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name,.stamp{
+    text-align: center;
+}

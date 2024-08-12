@@ -1,0 +1,14 @@
+.hero-main {
+    width: 100%;
+    height: 40rem;
+    background-color:#c8cfff;
+    overflow: auto;
+    position: relative;
+}
+.hero-second {
+    width: 100%;
+    height: 30rem;
+    background-color:#ffffff;
+    overflow: auto;
+    position: relative;
+}
